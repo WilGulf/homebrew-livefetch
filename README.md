@@ -4,6 +4,8 @@
   <p>A TUI system information tool with live-updating modules.<br>
 </div>
 
+![livefetch screenshot](Assets/Screenshot.png)
+
 ---
 <br>
 

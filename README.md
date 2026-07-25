@@ -50,6 +50,12 @@ sudo make install
 > **Note:** If `PREFIX` is not specified, `make install` installs to `/usr/local` by default.<br>
 > **Note:** If using a prefix, that prefix needs to be used on both the 'make' and 'make install' commands.
 
+## How it works
+Livefetch is written in C and using ncurses for rendering in terminal.
+System information is fetched from platform-specific APIs and refreshed while the program is running.
+The config is written in my own simple format supporting: keys, values and tables. 
+Every time the program is run the config gets parsed and the program behaves after the config.
+
 ## Acknowledgements
 
 Inspired by system information tools such as fastfetch and neofetch.

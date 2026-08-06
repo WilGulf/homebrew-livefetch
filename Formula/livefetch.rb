@@ -1,17 +1,17 @@
 class Livefetch < Formula
-    desc "A TUI system information tool with live-updating modules."
-    homepage "https://github.com/WilGulf/livefetch"
-    url "https://github.com/WilGulf/livefetch/archive/refs/tags/v1.1.0.tar.gz"
-    sha256 "26805fc33b482d88314037c90cb7812ae2a53e9f24cb345ea19908abf9040f72"
-    license "MIT"
+  desc "TUI system information tool with live-updating modules"
+  homepage "https://github.com/WilGulf/livefetch"
+  url "https://github.com/WilGulf/livefetch/archive/refs/tags/v2.0.0.tar.gz"
+  sha256 "91607f9b904085c837f8bcf6a3901f22e8ceda0f44e7970761e9ba1d640a4b87"
+  license "MIT"
 
-    depends_on "ncurses"
+  depends_on "ncurses"
 
-    def install
-        system "make", "install", "PREFIX=#{prefix}"
-    end
+  def install
+    system "make", "install", "PREFIX=#{prefix}"
+  end
 
-    test do
-        system "#{bin}/livefetch", "--version"
-    end
+  test do
+    system "#{bin}/livefetch", "--version"
+  end
 end

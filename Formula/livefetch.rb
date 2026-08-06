@@ -12,6 +12,6 @@ class Livefetch < Formula
   end
 
   test do
-    system "#{bin}/livefetch", "--version"
+    system bin/"livefetch", "--version"
   end
 end

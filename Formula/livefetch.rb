@@ -1,8 +1,8 @@
 class Livefetch < Formula
   desc "TUI system information tool with live-updating modules"
   homepage "https://github.com/WilGulf/livefetch"
-  url  "https://github.com/WilGulf/livefetch/archive/refs/tags/v2.1.5-test.tar.gz"
-  sha256 "9adaa7ea3382b0a0064a67220e8a008d55614edfce0856e30df0ce6f272559bd"
+  url "https://github.com/WilGulf/livefetch/archive/refs/tags/v2.2.0.tar.gz"
+  sha256 "e11ad6e32e62ccb93ce0c5af7163874cc6261e74f413b8ef3a00cd49ad6974e8"
   license "MIT"
   head "https://github.com/WilGulf/livefetch.git", branch: "main"
 
